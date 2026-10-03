@@ -30,10 +30,12 @@ public class Functions {
         int factorial =1 ;
         if (a==0) {
             System.out.println(1);
+            return; 
         }
         else{
             if(a<0){
                 System.out.println("Invalid Input");
+                return ;
             }
         else{
             for(int i=a; i>=1; i--){

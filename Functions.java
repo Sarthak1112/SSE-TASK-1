@@ -27,7 +27,7 @@ import java.util.*;
 
 public class Functions {
     public static void calculateFactorial(int a){
-        int factorial =1 ;
+        int factorial = 1 ;
         if (a==0) {
             System.out.println(1);
             return; 
